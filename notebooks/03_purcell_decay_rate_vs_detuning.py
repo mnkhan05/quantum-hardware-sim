@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  5 15:00:03 2026
-
-@author: mnkha
-"""
+# Purcell decay simulation — standard vs filtered
+# Purcell filter improves T1 by ~10^6x
+# Purcell no longer limiting factor
+# Real T1 limit: TLS defects, quasiparticles, materials losses
+# EIT analogy: off-resonant driving suppresses absorption by same 1/Delta^2 scaling
 
 import numpy as np
 import matplotlib.pyplot as plt
